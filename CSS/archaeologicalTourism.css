@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  background: #f0efeb;
+  color: #000000;
+  padding-top: 7rem;
+}
+
+.l-header {
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #f0efeb;
+  padding: 0 6.5rem;
+  border-bottom: 1px solid #808080;
+  z-index: 999;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.logo {
+  width: 40%;
+}
+
+.img__logo {
+  width: 110px;
+}
+
+.text-logo a {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+
+.nav {
+  position: absolute;
+  right: 100px;
+  top: 0;
+  line-height: 70px;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.nav a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.6rem;
+  background: transparent;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  background: #d8d8d8;
+}
+
+.nav-icon {
+  margin-right: 0.3rem;
+}
+
+.menu {
+  width: 85%;
+  margin: 0 100px;
+}
+
+.links {
+  display: flex;
+}
+
+.link {
+  width: 155px;
+  height: 55px;
+  padding: 0.4rem 0.9rem;
+  margin-right: 15px;
+  border: 2px solid #000000;
+  color: #000000;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.link:hover,
+.active {
+  background: #000000;
+  color: #ffffff;
+}
+
+.link-text {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.l-main {
+  width: 100%;
+}
+
+.con-main {
+  width: 85%;
+  margin: 60px 100px 0 100px;
+}
+
+.con-main h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.box-img {
+  float: left;
+  width: 50%;
+  height: 400px;
+  margin: 0 25px 30px 25px;
+  overflow: hidden;
+  border-radius: 35px;
+  /* background: chocolate; */
+}
+
+.box-img img {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 35px;
+}
+
+.con-main h2 {
+  display: block;
+  font-size: 1.5rem;
+  margin: 50px 0;
+}
+
+.con-main p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.box-main {
+  margin: 20px 0;
+  width: 100%;
+  height: 440px;
+}
+
+.cover {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  background: url(../images/archaeologicalTourism/pexels-daan-rink-2784383.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cover::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000ad;
+  z-index: 1;
+}
+
+.cover > * {
+  position: relative;
+  z-index: 11;
+}
+
+.con-cover {
+  width: 85%;
+  margin: 0 100px;
+  padding: 40px 0;
+}
+
+.det-cover h1 {
+  width: 250px;
+  font-size: 48px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button-main {
+  outline: none;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 35px;
+  margin: 35px 0 0 0;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.button-main:hover {
+  background: transparent;
+  color: #000;
+}

@@ -1,0 +1,436 @@
+* {
+  padding-left: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url(../images/Hotels/hotels.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #000000;
+}
+.container_Cairo {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url(../images/Hotels/hotelsCairo/hotelscairo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #000000;
+}
+.container_Giza {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url(../images/Hotels/hotelsGiza/Giza.jpg);
+  background-position: left;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #000000;
+}
+.container_Alexandria {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url(../images/Hotels/hotelsAlexandria/Alexandria.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #000000;
+}
+.container_Luxor {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url(../images/Hotels/hotelsLuxor/Luxor.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #000000;
+}
+.container_Aswan {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../images/Hotels/hotelsAswan/Aswan.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #000000;
+}
+
+.container-beaches {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../images/beaches/beaches.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #000000;
+}
+.container-Sharm-El-Shaikh {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../images/beaches/Sharm\ El-Shaikh.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #000000;
+}
+.container-hurghada {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../images/beaches/Hurghada.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #0000;
+}
+.container-Alexandria {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../images/beaches/Alexandria.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #0000;
+}
+.container-Dahab {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../images/beaches/Dahab.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #0000;
+}
+.container-Marsa-Matrouh {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url(../images/beaches/marsa\ matrouh.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  border-bottom: 1px solid #0000;
+}
+/* header start */
+.navber {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  padding: 70px 30px;
+}
+.logo {
+  width: 150px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+.nav-links li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+.nav-links li a:hover {
+  transition: all 0.2s;
+  border-bottom: 2px solid #ffffff;
+}
+/* header end */
+/* shortcut start*/
+.shortcut {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  margin-top: 60px;
+}
+.sc-icon {
+  margin-left: 30px;
+}
+.data {
+  background-color: #ffffff70;
+  padding: 10px;
+  height: 100%;
+  width: auto;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.sc-icon a {
+  text-decoration: none;
+}
+.select {
+  background-color: #000000;
+  padding: 10px;
+  height: 100%;
+  width: auto;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.select:hover {
+  background-color: #ffffff70;
+  color: #ffffff;
+  transition: all 0.4s ease-in-out;
+}
+.data:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.data .text {
+  float: left;
+}
+/* shortcut end*/
+/* search box start */
+.search-box {
+  margin: auto;
+  margin-top: 100px;
+  width: 900px;
+  height: 60px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+.sb-container {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.sb-container tr {
+  padding: 0;
+}
+.search-txt {
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  font: bold;
+}
+.search-txt:focus {
+  outline: none;
+}
+.search-btn {
+  color: #000;
+  font-size: 20px;
+}
+/* search box end */
+/*content start*/
+.content {
+  padding: 50px;
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+.hotels-data {
+  margin-top: 50px;
+}
+.hotels-data i {
+  padding-top: 5px;
+  color: #ffba08;
+  font-size: 15px;
+}
+.title {
+  display: flex;
+  padding-bottom: 10px;
+}
+.content-data {
+  display: flex;
+  font-size: 18px;
+}
+.hotels-data img {
+  width: 350px;
+  height: 250px;
+  margin-right: 20px;
+}
+.hotels-data h2 {
+  padding-right: 10px;
+}
+/*content end*/
+.content-beaches {
+  padding: 50px;
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  margin-top: 150px;
+}
+.beaches-data {
+  margin-top: 50px;
+}
+.title {
+  display: flex;
+  padding-bottom: 10px;
+}
+.beaches-data img {
+  width: 250px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+/*footer strat*/
+.footer {
+  position: relative;
+  background: linear-gradient(135deg, #ffffff, #fff1e6);
+  color: #000;
+  height: 200px;
+  width: 100%;
+}
+.footer .footer-content {
+  height: 100px;
+  display: flex;
+  margin-top: 5px;
+}
+.footer .footer-content .footer-sec-Connectus {
+  flex: 1;
+  padding: 10px;
+  margin-left: 10px;
+}
+.logo-hike {
+  display: flex;
+}
+.footer-logo {
+  width: 100px;
+}
+.footer .footer-content .footer-sec-Connectus a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.mail-phone {
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.footer .footer-bottom {
+  position: absolute;
+  bottom: 0px;
+  background-color: #ffffff;
+  color: #000;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+/*footer end*/
+@media (max-width: 1600px) {
+  /* header start */
+  .navber {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding: 45px 20px;
+  }
+  .logo {
+    width: 110px;
+  }
+  .nav-links li {
+    margin-left: 15px;
+  }
+  .nav-links li a {
+    font-size: 18px;
+  }
+
+  /* header end */
+  /* shortcut start*/
+  .shortcut {
+    display: flex;
+    width: 100%;
+    height: 35px;
+  }
+  .sc-icon {
+    margin-left: 15px;
+  }
+  .data {
+    font-size: 15px;
+  }
+  .sc-icon a {
+    text-decoration: none;
+  }
+  .select {
+    font-size: 15px;
+  }
+  .data .text {
+    float: left;
+  }
+  /* shortcut end*/
+
+  /*content start*/
+  .content {
+    padding: 50px;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+  }
+  .hotels-data {
+    margin-top: 60px;
+  }
+  .hotels-data i {
+    padding-top: 5px;
+    color: #ffba08;
+    font-size: 14px;
+  }
+  .title {
+    display: flex;
+    padding-bottom: 10px;
+  }
+  .content-data {
+    display: flex;
+  }
+
+  .hotels-data img {
+    width: 350px;
+    height: 250px;
+    margin-right: 20px;
+  }
+  .hotels-data h2 {
+    padding-right: 10px;
+  }
+  .content-beaches {
+    width: 1000px;
+  }
+  /*content end*/
+  /*footer strat*/
+  .footer {
+    position: relative;
+    background: linear-gradient(135deg, #ffffff, #fff1e6);
+    color: #000;
+    height: 200px;
+    width: 100%;
+  }
+  .footer .footer-content {
+    height: 100px;
+    display: flex;
+    margin-top: 5px;
+  }
+  .footer .footer-content .footer-sec-Connectus {
+    flex: 1;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .logo-hike {
+    display: flex;
+  }
+  .footer-logo {
+    width: 100px;
+  }
+  .footer .footer-content .footer-sec-Connectus a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .mail-phone {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .footer .footer-bottom {
+    position: absolute;
+    bottom: 0px;
+    background-color: #ffffff;
+    color: #000;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+  /*footer end*/
+}
