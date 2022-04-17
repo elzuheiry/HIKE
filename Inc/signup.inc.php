@@ -46,5 +46,3 @@ createUser($conn, $fullName, $email, $username, $password);
 }else{
   header("location:"."../signIn/signup.php");
 }
-
-?>
